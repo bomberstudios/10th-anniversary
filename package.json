@@ -24,5 +24,6 @@
     "@skpm/builder": "^0.7.0"
   },
   "author": "Ale M <bomberstudios@gmail.com>",
-  "repository": "https://github.com/bomberstudios/10th-anniversary.git"
+  "repository": "https://github.com/bomberstudios/10th-anniversary.git",
+  "license": "MIT"
 }
