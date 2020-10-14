@@ -1,7 +1,7 @@
 {
   "name": "10th-anniversary",
   "description": "Celebrate Sketch's 10th Anniversary with a trip down memory lane",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "engines": {
     "sketch": ">=49.0"
   },
