@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Time Travel to 2010",
+      "identifier": "10th-anniversary.2010",
+      "script": "./my-command.js",
+      "handler": "backTo2010"
+    },
+    {
+      "name": "Time Travel to 2012",
+      "identifier": "10th-anniversary.2012",
+      "script": "./my-command.js",
+      "handler": "backTo2012"
+    },
+    {
+      "name": "Time Travel to 2014",
+      "identifier": "10th-anniversary.2014",
+      "script": "./my-command.js",
+      "handler": "backTo2014"
+    },
+    {
+      "name": "Back Home",
+      "identifier": "10th-anniversary.2016",
+      "script": "./my-command.js",
+      "handler": "backTo2016"
+    }
+  ],
+  "menu": {
+    "title": "10th Anniversary",
+    "items": [
+      "10th-anniversary.2010",
+      "10th-anniversary.2012",
+      "10th-anniversary.2014",
+      "10th-anniversary.2016"
+    ]
+  }
+}

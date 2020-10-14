@@ -1,0 +1,27 @@
+{
+  "name": "10th-anniversary",
+  "description": "Celebrate Sketch's 10th Anniversary with a trip down memory lane",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "10th Anniversary",
+    "manifest": "src/manifest.json",
+    "main": "10th-anniversary.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.0"
+  },
+  "author": "Ale M <bomberstudios@gmail.com>"
+}
