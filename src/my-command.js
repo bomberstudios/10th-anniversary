@@ -13,7 +13,9 @@ export function backTo2014() {
 export function backTo2016() {
   changeIconToYear(2016)
 }
-
+export function backTo2020() {
+  changeIconToYear(2020)
+}
 
 function changeIconToYear(year) {
   var app = NSApplication.sharedApplication()

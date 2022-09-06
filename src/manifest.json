@@ -21,10 +21,16 @@
       "handler": "backTo2014"
     },
     {
-      "name": "Back Home",
+      "name": "Time Travel to 2016",
       "identifier": "10th-anniversary.2016",
       "script": "./my-command.js",
       "handler": "backTo2016"
+    },
+    {
+      "name": "Back Home",
+      "identifier": "10th-anniversary.2020",
+      "script": "./my-command.js",
+      "handler": "backTo2020"
     }
   ],
   "menu": {
@@ -33,7 +39,8 @@
       "10th-anniversary.2010",
       "10th-anniversary.2012",
       "10th-anniversary.2014",
-      "10th-anniversary.2016"
+      "10th-anniversary.2016",
+      "10th-anniversary.2020"
     ]
   }
 }
